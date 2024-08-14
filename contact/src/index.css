@@ -1,0 +1,21 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 15px 20px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+}
